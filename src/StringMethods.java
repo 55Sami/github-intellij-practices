@@ -2,9 +2,9 @@ public class StringMethods {
     public static void main(String[] args) {
         String name = "Namjoon";
 
-        if(name.contains(" ")){
+        if (name.contains(" ")) {
             System.out.println("Your name contains a space");
-        }else{
+        } else {
             System.out.println("Your name does not contain spaces");
         }
 
@@ -13,10 +13,10 @@ public class StringMethods {
         //int index = name.indexOf("o");
         //int lastIndex = name.lastIndexOf("o");
 
-       // name= name.toUpperCase();
-       // name = name.toLowerCase();
-      //  name = name.trim();      //removes spaces
-      //  name = name.replace("o","i");    //replaces the specific letter
+        // name= name.toUpperCase();
+        // name = name.toLowerCase();
+        //  name = name.trim();      //removes spaces
+        //  name = name.replace("o","i");    //replaces the specific letter
 
 
 
