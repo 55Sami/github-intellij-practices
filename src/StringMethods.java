@@ -1,6 +1,6 @@
 public class StringMethods {
     public static void main(String[] args) {
-        String name = "Namjoon";
+        String name = "Nam joon";
 
         if (name.contains(" ")) {
             System.out.println("Your name contains a space");
