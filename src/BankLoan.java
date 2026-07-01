@@ -31,14 +31,14 @@ public class BankLoan {
                 System.out.println("LOAN DENIED");
             }
 
-        }else{
+        }else {
             System.out.print("Enter your monthly Income: ");
             monthlyIncome = scanner.nextDouble();
             System.out.print("Do you have existing debt?(true or false): ");
             hasExistingDebt = scanner.nextBoolean();
-            if(monthlyIncome>=6000 && !hasExistingDebt){
+            if (monthlyIncome >= 6000 && !hasExistingDebt) {
                 System.out.println("LOAN APPROVED");
-            }else{
+            } else {
                 System.out.println("LOAN DENIED");
             }
 
