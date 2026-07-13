@@ -6,7 +6,7 @@ public class RoadTrip {
 
         String answer;
         do{
-            System.out.print("Are we there yet?(yes or no): ");
+            System.out.print("Are we there yet?(yes or No): ");
             answer = scanner.nextLine();
 
             if(answer.equalsIgnoreCase("yes")){
