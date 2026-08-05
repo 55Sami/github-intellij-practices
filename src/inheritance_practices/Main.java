@@ -5,6 +5,9 @@ public class Main {
 
         Dog dog = new Dog();
         Cat cat = new Cat();
+        Plant plant = new Plant();
+
+        plant.photosynthesize();
 
         System.out.println(dog.isAlive);
         System.out.println(cat.isAlive);
@@ -17,5 +20,8 @@ public class Main {
 
         dog.speak();
         cat.speak();
+
+
+
     }
 }
