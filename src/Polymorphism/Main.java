@@ -14,7 +14,7 @@ public class Main {
        Vehicle[] vehicles ={car,bike,boat};
 
        for(Vehicle vehicle : vehicles){
-           vehicle.go();
+           vehicle.go(); 
        }
     }
 }
